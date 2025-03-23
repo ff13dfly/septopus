@@ -4,12 +4,6 @@ Homepage: **[https://septopus.xyz](https://septopus.xyz)**
 
 ![Spetopus Rex](./image/septopus.webp)
 
-## Application
+## Goal
 
-### Homepage
-
-* Folder: `home`
-
-* Framework: [docusaurus](https://docusaurus.io/)
-
-* Shell `npx create-docusaurus@latest home classic --typescript`.
+* 
