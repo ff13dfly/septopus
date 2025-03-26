@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Make Freedom Great Always',
+  title: 'Keep Freedom Great Always',
   tagline: 'Septopus Rex',
   favicon: 'img/favicon.ico',
 
@@ -17,8 +17,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ff13dfly', // Usually your GitHub org/user name.
+  projectName: 'septopus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -78,10 +78,30 @@ const config: Config = {
       },
       items: [
         {
+          to: 'MoneyIn',
+          label: 'Money In',
+          position: 'left',
+        },
+        {
+          to: 'MoneyOut',
+          label: 'Money Out',
+          position: 'left',
+        },
+        {
+          to: 'roadmap',
+          label: 'Roadmap',
+          position: 'left',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'chatSidebar',
           position: 'left',
-          label: 'AI·Chat',
+          label: 'AI·Log',
+        },
+        {
+          to: 'Production',
+          label: 'Production',
+          position: 'left',
         },
         {
           type: 'localeDropdown',
