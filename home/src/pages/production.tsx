@@ -12,9 +12,12 @@ export default function Production() {
           height: '50vh',
           fontSize: '20px',
         }}>
-        <p>
-          Productions are on live or archieved.
-        </p>
+        
+        <ul>
+          <li>W3OS</li>
+          <li>Hash Lottery</li>
+          <li>LuckySig</li>
+        </ul>
       </div>
     </Layout>
   );

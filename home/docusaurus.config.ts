@@ -107,11 +107,11 @@ const config: Config = {
           type: 'localeDropdown',
           position: 'right',
         },
-        {
-          href: 'https://github.com/ff13dfly/septopus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {
+        //   href: 'https://github.com/ff13dfly/septopus',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -133,10 +133,10 @@ const config: Config = {
             //   label: 'Stack Overflow',
             //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             // },
-            // {
-            //   label: 'Discord',
-            //   href: 'https://discordapp.com/invite/docusaurus',
-            // },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/Qc46bsfk',
+            },
             {
               label: 'X',
               href: 'https://x.com/docusaurus',
